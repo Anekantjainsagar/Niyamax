@@ -1,0 +1,170 @@
+body, html {
+  height: 100%;
+}
+
+#bg {
+  background-image: url("./html_images/contact.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo
+{
+	padding-top:10px;
+	padding-left: 15px
+}
+
+.nounderline {
+  text-decoration: none !important
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    color: #2C2C2C;
+    font-weight: bold;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+}
+  
+li a {
+  color: #2C2C2C;
+}
+
+li:hover {
+    cursor: pointer;
+   background-color: rgba(0,0,0,0.2);
+}
+
+ul li ul {
+	  visibility: hidden;
+	  opacity: 0;
+	  min-width: 5rem;
+      position: absolute;
+      transition: all 1s ease;
+      margin-top: 1rem;
+      left: 0;
+      display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
+}
+.imgcon
+{
+	text-align: center;;
+}
+
+.container
+{
+  margin-top: 100px;
+}
+
+.container-12
+{
+  margin-top: 10px;
+}
+
+.form-contact .form-control {
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+}
+.form-contact textarea {
+    border-radius: 0px;
+    height: 100% !important;
+}
+
+.col-md-12
+{
+  margin-bottom: 30px;
+}
+
+.btn
+{
+  border:1px solid #48B6FB;
+  color: #48B6FB;
+  font-family:arial;
+  font-size:16px;
+  text-decoration: none;
+  padding:5px 10px;
+  display:inline-block;
+  position: relative;
+  transition:all 0.3s ease 0s;
+
+}
+
+.btn:after
+{
+  background:#48B6FB;
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:0%;
+  height:100%;
+  z-index: -1;
+  transition:all 0.3s ease 0s;
+}
+
+.btn:hover
+{
+  color:#fff;
+}
+
+.btn:hover:after
+{
+  width:100%;
+}
+
+.container-3
+{
+  background: #000;
+}
+
+.container-3 p
+{
+  color:#fff;
+  text-align:center;
+  margin-top: 40px;
+  padding-top:30px;
+  padding-bottom: 30px;
+  font-size: 15px;
+  font-family: arial; 
+}
+
+
+i.mysize 
+{
+  font-size: 45px;
+}
+
+
+.media-body
+{
+  display: inline-block;
+  margin-left: 10px;
+}
+

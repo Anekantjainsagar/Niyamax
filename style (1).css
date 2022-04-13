@@ -1,0 +1,148 @@
+body, html {
+  height: 100%;
+}
+
+#bg {
+  background-image: url("./html_images/brooke-cagle-tLG2hcpITZE-unsplash.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo
+{
+	padding-top:10px;
+	padding-left: 15px
+}
+
+.nounderline {
+  text-decoration: none !important
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+}
+  
+li a {
+  color: #fff;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.2);
+}
+
+ul li ul {
+	  visibility: hidden;
+	  opacity: 0;
+	  min-width: 5rem;
+      position: absolute;
+      transition: all 1s ease;
+      margin-top: 1rem;
+      left: 0;
+      display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+    clear: both;
+  	width: 100%;
+}
+.imgcon
+{
+	text-align: center;;
+}
+
+.container-2
+{
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 90px;
+}
+
+.box
+{
+	border: 1px solid black;
+	width:375px;
+	position: relative;
+	overflow: hidden;
+}
+
+.box img
+{
+	width: 100%;
+	height: auto;
+}
+
+.content
+{
+	color:#fff;
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	top:100%;
+	left:0;
+	width:100%;
+	height:100%;
+	padding: 10px;
+	font-family:arial;
+	transition: all 0.6s ease;
+}
+
+.box:hover .content
+{
+	top:0;
+}
+
+.container-3
+{
+	background: #000;
+}
+
+.container-3 p
+{
+	color:#fff;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom: 30px;
+	font-size: 15px;
+	font-family: arial; 
+}
+
+.container-5{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	margin-bottom: 0;
+}
+
+.contact{
+	width: 40%;
+	height: 100%;
+	padding-left: 2rem;
+}
+
+.map{
+	width: 60%;
+	height: 100%;
+}
